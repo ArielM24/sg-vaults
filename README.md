@@ -1,4 +1,4 @@
-<img src="src/main/resources/assets/sg_vaults/icon.png" width="128">
+<img src="src/main/resources/assets/sg-vaults/icon.png" width="128">
 
 # Synchro Games Stackable
 
