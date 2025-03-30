@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "sg-vaults",
+	"version": "${version}",
+	"name": "SG Vaults",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "git@github.com:ArielM24/sg-vaults.git",
+		"sources": "git@github.com:ArielM24/sg-vaults.git"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/sg-vaults/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.sg.vaults.SGVaults"
+		],
+		"client": [
+			"com.sg.vaults.SGVaultsClient"
+		]
+	},
+	"mixins": [
+		"sg-vaults.mixins.json",
+		{
+			"config": "sg-vaults.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21.5",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
