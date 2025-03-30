@@ -2,7 +2,7 @@
 
 # Synchro Games Stackable
 
-A simple mod to unlock trial vaults already used by a player with a regular trial key (ominous vaults also use a regular key to be unlock again).
+A simple mod to unlock trial vaults already used by a player with a regular trial key (ominous vaults also use a regular key to be unlocked again).
 
 ### Instalation
 
