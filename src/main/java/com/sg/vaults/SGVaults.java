@@ -10,7 +10,6 @@ import net.minecraft.block.vault.VaultConfig;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;
 import net.minecraft.loot.LootTable;
-import net.minecraft.nbt.NbtCompound;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.stat.Stats;
 import net.minecraft.state.property.Properties;
