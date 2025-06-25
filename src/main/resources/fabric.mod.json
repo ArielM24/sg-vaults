@@ -3,16 +3,16 @@
 	"id": "sg-vaults",
 	"version": "${version}",
 	"name": "SG Vaults",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Use trial keys to allow trial vaults to be used again",
 	"authors": [
-		"Me!"
+		"ArielM24"
 	],
 	"contact": {
 		"homepage": "git@github.com:ArielM24/sg-vaults.git",
 		"sources": "git@github.com:ArielM24/sg-vaults.git"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/sg-vaults/icon.png",
+	"icon": "assets/sg-vaults/sg-vaults.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
